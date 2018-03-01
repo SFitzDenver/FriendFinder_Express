@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Page</title>
+
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="jumbotron">
+      <h1 class="text-left"><span class="glyphicon glyphicon-thumbs-up"></span> Friend Survey</h1>
+      <hr>
+      <h2 class="text-left">Survey Questions</h2>
+      <br>
+
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="title"><strong>About You</strong></h3>
+
+          <div class="panel-body">
+
+            <form role="form">
+
+              <div class="form-group">
+                <label for="friend-name">Name (Required)</label>
+                <input type="text" class="form-control" id="friend-name">
+              </div>
+
+              <div class="form-group">
+                <label for="friend-photo">Link to Photo Image (Required)</label>
+                <input type="text" class="form-control" id="friend-photo">
+              </div>
+
+          <div class="question">
+            <h3 id="question1Header"><strong>Question 1</strong></h3>
+            <h4 class="question1Header">Your mind is always buzzing with unexplored ideas and plans.</h4>
+
+            <div class="form-group">
+              <label for="question1">Select an Option</label>
+              <select class="form-control" id="question1">
+                  <option value=0>Select an Option</option>
+                  <option value=1>1 (Strongly Disagree)</option>
+                  <option value=2>2</option>
+                  <option value=3>3</option>
+                  <option value=4>4</option>
+                  <option value=5>5 (Strongly Agree)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="question">
+            <h3 id="question2Header"><strong>Question 2</strong></h3>
+            <h4 class="question2Header">Generally speaking, you rely more on your experience than your imagination.</h4>
+
+            <div class="form-group">
+              <label for="question2">Select an Option</label>
+              <select class="form-control" id="question2">
+                  <option value="0">Select an Option</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="question">
+            <h3 id="question3Header"><strong>Question 3</strong></h3>
+            <h4 class="question3Header">You find it easy to stay relaxed and focus even when there is some pressure.</h4>
+
+            <div class="form-group">
+              <label for="question3">Select an Option</label>
+              <select class="form-control" id="question3">
+                  <option value="0">Select an Option</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="question">
+            <h3 id="question4Header"><strong>Question 4</strong></h3>
+            <h4 class="question4Header">You rarely do something just out of sheer curiousity.</h4>
+
+            <div class="form-group">
+              <label for="question4">Select an Option</label>
+              <select class="form-control" id="question4">
+                  <option value="0">Select an Option</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="question">
+            <h3 id="question5Header"><strong>Question 5</strong></h3>
+            <h4 class="question5Header">People can rarely upset you.</h4>
+
+            <div class="form-group">
+              <label for="question5">Select an Option</label>
+              <select class="form-control" id="question5">
+                  <option value="0">Select an Option</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+              </select>
+            </div>
+          </div>
+  
+          <div class="question">
+            <h3 id="question6Header"><strong>Question 6</strong></h3>
+            <h4 class="question6Header">It is often difficult for you to relate to other people's feelings.</h4>
+
+            <div class="form-group">
+              <label for="question6">Select an Option</label>
+              <select class="form-control" id="question6">
+                  <option value="0">Select an Option</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="question">
+            <h3 id="question7Header"><strong>Question 7</strong></h3>
+            <h4 class="question7Header">In a discussion, thruth should be more important that people's sensitivities.</h4>
+
+            <div class="form-group">
+              <label for="question7">Select an Option</label>
+              <select class="form-control" id="question7">
+                  <option value="0">Select an Option</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="question">
+            <h3 id="question8Header"><strong>Question 8</strong></h3>
+            <h4 class="question8Header">You rarely get carried away by fantasies and ideas.</h4>
+            <div class="form-group">
+              <label for="question8">Select an Option</label>
+              <select class="form-control" id="question8">
+                  <option value="0">Select an Option</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="question">
+            <h3 id="question9Header"><strong>Question 9</strong></h3>
+            <h4 class="question9Header">You think that everyone's views should be respected regardless of whether they are supported by facts or not.</h4>
+
+            <div class="form-group">
+              <label for="question9">Select an Option</label>
+              <select class="form-control" id="question9">
+                  <option value="0">Select an Option</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="question">
+            <h3 id="question10Header"><strong>Question 10</strong></h3>
+            <h4 class="question10Header">You feel more energetic after spending time with a group of people.</h4>
+
+            <div class="form-group">
+              <label for="question10">Select an Option</label>
+              <select class="form-control" id="question10">
+                  <option value="0">Select an Option</option>
+                  <option value="1">1 (Strongly Disagree)</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5 (Strongly Agree)</option>
+              </select>
+            </div>
+          </div>
+
+          <br> 
+            <button type="submit" class="btn btn-primary submit" id="submit">Submit</button>
+            </form>
+    
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <br>
+    <footer class="footer">
+      <div class="container">
+        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/SFitzDenver/FriendFinder_Express">GitHub Repo</a></p>
+      </div>
+    </footer>
+
+  </div>
+
+</body>
+</html>
+
+<!-- BELOW CODE IS CRITICAL. IT HANDLES HOW FORM DATA IS SENT TO OUR SERVER -->
+<script type="text/javascript">
+
+
+    $(".submit").on("click", function(event) {
+      event.preventDefault();
+
+      // Here we grab the form elements
+      var user = {
+        name: $("#friend-name").val().trim(),
+        photo: $("#friend-photo").val().trim(),
+        q1: $("#question1").val(),
+        q2: $("#question2").val(),
+        q3: $("#question3").val(),
+        q4: $("#question4").val(),  
+        q5: $("#question5").val(),
+        q6: $("#question6").val(),
+        q7: $("#question7").val(), 
+        q8: $("#question8").val(),
+        q9: $("#question9").val(),
+        q10: $("#question10").val(),
+      };
+
+
+      // This line is the magic. It"s very similar to the standard ajax function we used.
+      // Essentially we give it a URL, we give it the object we want to send, then we have a "callback".
+      // The callback is the response of the server. In our case, we set up code in api-routes that "returns" true or false
+      // depending on if a tables is available or not.
+
+      $.post("/api/survey", user,
+        function(data) {
+
+          // Clear the form when submitting
+          $("#friendName").val("");
+          $("#friendPhoto").val("");
+          $("#question1").val("");
+          // $("#reserve-email").val("");
+          // $("#reserve-unique-id").val("");
+
+        });
+
+    });
+
+</script>
